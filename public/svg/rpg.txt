@@ -1,0 +1,61 @@
+name=input('Enter your name! ')
+print(f'Greetings{name}! Welcome to your adventure')
+start=input('Would you rether play the game or perish? ')
+if start=='play':
+    print("Great! Let's play the game! ")
+    setting=input('Want to go to the jungle or desert? ')
+else:
+    print('Lane, Okay you\'re dead now... ')
+    quit()
+
+if setting=='jungle':
+    print("Welcome to the nighty Amazon rainforest! Your tour guide told you to wait here...")
+    response=input("But he has been gone a long time... Follow him or wait here? ")
+    if response=='follow':
+        print('You follow him into the trees...')
+        response = input('Keep waiting or follow him? ')
+        if response == 'follow':
+            print('Axes is very important for cut trees')
+        elif response == 'wait':
+            print('A Week later were have many wood for building house! Ending 1/4 Found!')
+            quit()
+    elif response =='wait':
+        print('You wait another 10 minutes, and he still isn\'t here!')
+        response = input('Keep waiting or follow him? ')
+        if response == 'follow':
+            print('They going to fight the boss for jungle')
+        elif response == 'wait':
+            print('2 Hours later the boss is dead by Lane and Lucas and gets rewards! Ending 3/4 Found!')
+            quit()
+    else:
+        print('invaid response! you lose!')
+        quit()
+
+elif setting=='desert':
+    print("Welcome to desert mojave for califormia! Your tour guide told you to wait here...")
+    response=input("But he has been gone a long time... Follow him or wait here? ")
+    if response=='find':
+        print('You find him the house and backpark...')
+    elif response =='wait':
+        print('You wait another 10 minutes, and he still nothing!')
+        reponse=input('Keep waiting or follow him?')
+        if response=='find':
+            print('that chest is found')
+        elif response=='wait':
+            print('He finally comes back! He said the Desert Mojave is too hot and the tour is over! Ending 4/4 Found!')
+            quit()
+    else:
+        print('invaid response! you lose!')
+        quit()
+
+else:
+    print('invaid response! you lose!')
+    quit()
+    follow=input("This location is not here Pyramids, one more thing: He can build pyramids on mojave. follow by construction or decline! ")
+    if follow=='construction':
+        print('Call my friend, help me build pyramid and city for after primary for mojave desert is acceptable!'
+              'ending 2/4')
+        quit()
+    elif follow=='decline':
+        print('The law says you cannot build this desert')
+        quit()
