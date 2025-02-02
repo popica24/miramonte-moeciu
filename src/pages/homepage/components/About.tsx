@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className='relative px-4 py-16 sm:px-8 lg:px-16 lg:py-32 xl:px-40 2xl:px-64'>
+    <section className='relative px-4 py-16 sm:px-8 lg:px-16 lg:py-32 xl:px-40 2xl:px-64' id='about'>
       <div className='mb-12 flex flex-col lg:-mx-8 lg:flex-row'>
         <div data-aos='fade-right' className='w-full lg:w-1/2 lg:px-8'>
           <h2 className='mt-4 text-3xl font-bold leading-tight'>Casa MiraMonte</h2>
@@ -151,8 +151,6 @@ const About = () => {
         </div>
         <div className='col-span-1 mb-2'></div>
       </div>
-
-      
     </section>
   );
 };

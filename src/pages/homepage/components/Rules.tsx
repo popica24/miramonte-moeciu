@@ -1,6 +1,6 @@
 const Rules = () => {
   return (
-    <section className='relative px-4 py-16 sm:px-8 lg:px-16 lg:py-32 xl:px-40 2xl:px-64'>
+    <section className='relative px-4 py-16 sm:px-8 lg:px-16 lg:py-32 xl:px-40 2xl:px-64' id='rules'>
       <span className='mb-6 w-full text-center text-3xl font-bold leading-tight'>Regulament de ordine interioara</span>
       <div className='mt-6 flex flex-wrap justify-center gap-4 font-serif text-lg'>
         <span

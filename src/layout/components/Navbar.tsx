@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className=''>
           <ul className='flex justify-end text-white'>
             <li>
-              <a href='#' target='_blank' title=''>
+              <a href='#about' target='_blank' title=''>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   width='24'
@@ -92,22 +92,27 @@ const Navbar = () => {
           <nav className='mt-4 w-full rounded bg-white px-6 py-4 text-start shadow-lg md:mt-0 md:bg-transparent md:p-0 md:shadow-none'>
             <ul className='items-center md:flex'>
               <li className='md:ml-4'>
-                <a className='inline-block py-2 font-semibold md:px-2 md:text-white' href='#'>
+                <a className='inline-block py-2 font-semibold md:px-2 md:text-white' href='#about '>
                   Despre Noi
                 </a>
               </li>
               <li className='md:ml-4'>
-                <a className='inline-block py-2 font-semibold md:px-2 md:text-white' href='#'>
+                <a className='inline-block py-2 font-semibold md:px-2 md:text-white' href='#gallery'>
                   Galerie
                 </a>
               </li>
               <li className='md:ml-4 md:hidden lg:block'>
-                <a className='inline-block py-2 font-semibold md:px-2 md:text-white' href='#'>
+                <a className='inline-block py-2 font-semibold md:px-2 md:text-white' href='#rules'>
                   Reguli
                 </a>
               </li>
+              <li className='md:ml-4 md:hidden lg:block'>
+                <a className='inline-block py-2 font-semibold md:px-2 md:text-white' href='#prices'>
+                  Preturi
+                </a>
+              </li>
               <li className='md:ml-4'>
-                <a className='inline-block py-2 font-semibold md:px-2 md:text-white' href='#'>
+                <a className='inline-block py-2 font-semibold md:px-2 md:text-white' href='#reviews'>
                   Testimoniale
                 </a>
               </li>
