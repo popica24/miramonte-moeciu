@@ -1,4 +1,5 @@
 import Layout from 'layout/Layout';
+import Booking from 'pages/bookings';
 import Homepage from 'pages/homepage';
 import { createBrowserRouter } from 'react-router-dom';
 
@@ -10,6 +11,10 @@ export const router = createBrowserRouter([
       {
         index: true,
         element: <Homepage />,
+      },
+      {
+        path: '/rezervari',
+        element: <Booking />,
       },
     ],
   },

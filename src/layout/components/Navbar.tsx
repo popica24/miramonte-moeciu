@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   return (
     <header className='absolute left-0 top-0 z-50 w-full px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64'>
@@ -117,12 +119,12 @@ const Navbar = () => {
                 </a>
               </li>
               <li className='mt-3 md:ml-6 md:mt-0'>
-                <a
+                <Link
                   className='inline-block rounded border border-white bg-[#535353] px-4 py-2 font-semibold text-white md:bg-transparent md:text-white'
-                  href='book-appointment.html'
+                  to='rezervari'
                 >
                   Rezerva !
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
